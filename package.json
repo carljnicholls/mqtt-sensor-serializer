@@ -1,0 +1,41 @@
+{
+  "name": "mqtt-sensor-serializer",
+  "version": "1.0.0",
+  "description": "Subscribes to MQTT topics and serializes the result to csv",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CJN",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fs-extra": "^9.0.0",
+    "mkdirp": "^1.0.4",
+    "moment": "^2.24.0",
+    "mqtt": "^4.1.0",
+    "papaparse": "^5.2.0",
+    "sqlite3": "^4.2.0",
+    "tslib": "^2.0.0",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.2"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/fs-extra": "^8.1.0",
+    "@types/jest": "^24.0.25",
+    "@types/jest-expect-message": "^1.0.1",
+    "@types/mkdirp": "^1.0.1",
+    "@types/moment": "^2.13.0",
+    "@types/mqtt": "^2.5.0",
+    "@types/node": "^13.1.1",
+    "@types/papaparse": "^5.0.4",
+    "@types/sqlite3": "^3.1.6",
+    "@types/winston": "^2.4.4",
+    "jest": "^24.9.0",
+    "jest-each": "^24.9.0",
+    "jest-expect-message": "^1.0.2",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.9.5"
+  }
+}
